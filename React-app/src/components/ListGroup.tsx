@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
 function ListGroup() {
-    const items = ['New York', 'Los Angeles','Chicago', 'Houston', 'Philadelphia',];
+    let items = ['New York', 'Los Angeles','Chicago', 'Houston', 'Philadelphia',];
     items = [];
 
     if (items.length === 0)
